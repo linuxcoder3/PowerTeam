@@ -13,3 +13,7 @@ chmod +x install.sh
 ./install.sh
 
 ./start.sh
+
+# Developers
+
+MJ_kh
