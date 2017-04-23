@@ -15,7 +15,7 @@ local action = function(msg, blocks, ln)
     if not(msg.chat.type == 'private') then return end
     
 	if blocks[1] == 'ping' then
-		api.sendMessage(msg.from.id, '✅*I Am Online*', true)
+		api.sendMessage(msg.from.id, '*Im Online*', true)
 		mystat('!ping') --save stats
 	end
 	if blocks[1] == 'strings' then
